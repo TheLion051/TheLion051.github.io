@@ -9,6 +9,27 @@
 
         <title>Dental Familiar</title>
 
+        <style>
+            .float{
+                position:fixed;
+                width:60px;
+                height:60px;
+                bottom:40px;
+                left:40px;
+                background-color:#25d366;
+                color:#FFF;
+                border-radius:50px;
+                text-align:center;
+            font-size:30px;
+                box-shadow: 2px 2px 3px #999;
+            z-index:100;
+            }
+
+            .my-float{
+                margin-top:16px;
+            }
+        </style>
+
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
@@ -25,13 +46,7 @@
         <link href="css/owl.theme.default.min.css" rel="stylesheet">
 
         <link href="css/templatemo-medic-care.css" rel="stylesheet">
-<!--
 
-TemplateMo 566 Medic Care
-
-https://templatemo.com/tm-566-medic-care
-
--->
     </head>
     
     <body id="top">
@@ -283,7 +298,7 @@ https://templatemo.com/tm-566-medic-care
                                         <i class="bi-star-fill"></i>
                                         <i class="bi-star-fill"></i>
                                         <i class="bi-star-fill"></i>
-                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
                                     </div>
 
                                     <p class="text-primary d-block mt-2 mb-0 w-100"><strong style="color: #FFFFFF;">Me devolvió la confianza</strong></p>
@@ -361,7 +376,7 @@ https://templatemo.com/tm-566-medic-care
                             
                                 <form role="form" action="#booking" method="post">
                                     <div class="row">
-                                        <div class="col-lg-6 col-12">
+                                        <div class="col-12">
                                             <input type="text" name="name" id="name" class="form-control" placeholder="Nombre completo" required>
                                         </div>
 
@@ -371,11 +386,6 @@ https://templatemo.com/tm-566-medic-care
 
                                         <div class="col-lg-6 col-12">
                                             <input type="telephone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="Teléfono: 123-456-7890">
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <input type="date" name="date" id="date" value="" class="form-control">
-                                            
                                         </div>
 
                                         <div class="col-12">
@@ -450,6 +460,10 @@ https://templatemo.com/tm-566-medic-care
                 </div>
             </section>
         </footer>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=3221153098&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
