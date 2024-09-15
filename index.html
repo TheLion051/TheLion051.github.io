@@ -50,11 +50,11 @@
     </head>
     
     <body id="top">
-        <!-- Principio del widget de globo de Calendly -->
+        <!-- Principio del widget de globo de Calendly
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
         <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/dental-familiar?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=520000', text: 'Programar Reunion', color: '#520000', textColor: '#ffffff', branding: true }); }</script>
-        <!-- Final del widget de globo de Calendly -->
+        Final del widget de globo de Calendly -->
     
         <main>
 
@@ -373,8 +373,13 @@
                             <div class="booking-form">
                                 
                                 <h2 class="text-center mb-lg-3 mb-2">Contactanos</h2>
+
+                                <!-- Principio del widget integrado de Calendly -->
+                                <div class="calendly-inline-widget" data-url="https://calendly.com/dental-familiar?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=520000" style="min-width:320px;height:700px;"></div>
+                                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                                <!-- Final del widget integrado de Calendly -->
                             
-                                <form role="form" action="#booking" method="post">
+                                <!--<form role="form" action="#booking" method="post">
                                     <div class="row">
                                         <div class="col-12">
                                             <input type="text" name="name" id="name" class="form-control" placeholder="Nombre completo" required>
@@ -396,7 +401,7 @@
                                             <button type="submit" class="form-control" id="submit-button">Contactar</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form>-->
 
                             </div>
                         </div>
